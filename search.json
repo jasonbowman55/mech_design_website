@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "meet_the_inventors/index.html",
-    "href": "meet_the_inventors/index.html",
-    "title": "Inventors",
-    "section": "",
-    "text": "Jason Bowman\nEngineering major at Harvey Mudd College (grad 25), with experience in embedded systems, electrical engineering, control systems, DSP, electromechanical systems, and mechanical design.\n\n\n\nMechanical design was my first engineering interest when entering Harvey Mudd College. Although I was ultimately drawn to the realm of electrical and embedded systems, mechanical design has always remained one of my top three interests in engineering. I love working with my hands, learning new things, and seeing a final product come together through the countless twists and turns of the design process.\n\n  🔗 LinkedIn     👤 Jason’s Personal Website     📄 Resume  \n\n\n\n\nLarry (Gengyan) Liu\nI’m a senior Physics major at Pomona College with extensive experience in mechanical design, fluid dynamics research, and innovative engineering projects. From designing a tracked electric platform with two-speed transmission to simulating and experimenting vortex ring formation in Sphagnum moss, I’ve pursued my passion for creating sophisticated mechanical systems throughout my undergraduate career.\n\n\n\nMy journey in mechanical design began in my freshman year, driven by a deep fascination with designing and building functional mechanical systems. Though I wish I had formal mechanical design education earlier, the self-taught path has given me unique perspectives and problem-solving approaches. My work spans from non planar superconducting stellarator magnets to amphibious robots and shaped charge simulations, reflecting my diverse interests in applied physics and engineering.\nFuture Plans: I’m excited to continue my academic journey as a Kummer I&E Doctoral Fellow at Missouri S&T, where I’ll advance research in energetic materials safety and applications.\n\n  🔗 LinkedIn  \n\n\n\n\nNebiyu Samuel\nI’m a senior at Harvey Mudd College majoring in engineering, with a strong interest in mechanical design and hands-on fabrication.\n\n\n\nI enjoy working in both the metal and wood shops, where I apply practical skills to bring ideas to life. I’m especially passionate about projects that combine technical precision with creative problem-solving.\n\n  🔗 LinkedIn     📄 Resume"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Walking Couch",
-    "section": "",
-    "text": "Welcome to our final project for Mechanical Design, a course at Harvey Mudd College focused on mechanical principles, analysis techniques, group design workflows, and product development.\nThis project focuses on the physical design, analysis, and implementation of an electromechanical Jansen linkage system capable of carrying a couch and passenger, allowing for stylish transport around Harvey Mudd’s campus. Further information about technical specifics and design decisions can be found in the tabs above."
-  },
-  {
     "objectID": "design_calc_sim/index.html",
     "href": "design_calc_sim/index.html",
     "title": "Design and Simulation",
@@ -28,11 +14,18 @@
     "text": "This is the final project for E177 Mechanical Design at Harvey Mudd College, taught by Professor Mendelson.\n\nProfessors & Instructors Acknowledgements\n\n\n\n“Leah Mendelson grew up in Owego, New York, down the road from where IBM was founded, surrounded by engineering companies like Lockheed Martin, whose outreach insured they were well-known at local schools. It’s no wonder she went on to study mechanical engineering. But the tie to her interest in fluid mechanics? Mendelson notes her many years as a competitive swimmer.” - hmc.edu\n\n\n\n\n“Price, who joined the HMC staff in fall 2019, instructs students on design techniques, oversees projects and ensures that students and faculty members learn the correct techniques to safely use equipment in the machine shop, now located adjacent to the new makerspace in the Scott A. McGregor Computer Science Center.” - hmc.edu"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Walking Couch",
+    "section": "",
+    "text": "Welcome to our final project for Mechanical Design, a course at Harvey Mudd College focused on mechanical principles, analysis techniques, group design workflows, and product development.\nThis project focuses on the physical design, analysis, and implementation of an electromechanical Jansen linkage system capable of carrying a couch and passenger, allowing for stylish transport around Harvey Mudd’s campus. Further information about technical specifics and design decisions can be found in the tabs above."
+  },
+  {
     "objectID": "ideation/index.html",
     "href": "ideation/index.html",
     "title": "Ideation",
     "section": "",
-    "text": "With inspiration originally derived from the Strandbeest Bike video titled Epic Cycling | Truly Unique Bicycle that Walks on YouTube, this project aims to extend the concept to an electromechanical system capable of supporting the weight of a couch and a passenger.\nThis idea was further explored by Nebiyu Samuel and Scarlett Bonner in E175: Dynamics of Rigid Bodies at Harvey Mudd College, taught by Professor Lori Bassman. As outlined in the paper linked here."
+    "text": "With inspiration originally derived from the Strandbeest Bike video titled Epic Cycling | Truly Unique Bicycle that Walks on YouTube, created by Brandon Green at the Dallas Makerspace, this project aims to extend the concept to an electromechanical system capable of supporting the weight of a couch and a passenger.\n\n\n\nDallas Makerspace “Rogue Strandbeest Mk2 Build [COMPLETE]” - Brandon_Green\n\n\nThis idea was further explored by Nebiyu Samuel and Scarlett Bonner in E175: Dynamics of Rigid Bodies at Harvey Mudd College, taught by Professor Lori Bassman. In their report titled “Modeling a Strandbeest Bike” found below, Nebiyu and Scarlett drew from knowledge learned in E175 to analyze footpath, kinetic energy, and power requirements needed to run this complex mechanical system."
   },
   {
     "objectID": "manufacturing/index.html",
@@ -40,5 +33,12 @@
     "title": "Manufacturing",
     "section": "",
     "text": "text"
+  },
+  {
+    "objectID": "meet_the_inventors/index.html",
+    "href": "meet_the_inventors/index.html",
+    "title": "Inventors",
+    "section": "",
+    "text": "Jason Bowman\nEngineering major at Harvey Mudd College (grad 25), with experience in embedded systems, electrical engineering, control systems, DSP, electromechanical systems, and mechanical design.\n\n\n\nMechanical design was my first engineering interest when entering Harvey Mudd College. Although I was ultimately drawn to the realm of electrical and embedded systems, mechanical design has always remained one of my top three interests in engineering. I love working with my hands, learning new things, and seeing a final product come together through the countless twists and turns of the design process.\n\n  🔗 LinkedIn     👤 Jason’s Personal Website     📄 Resume  \n\n\n\n\nLarry (Gengyan) Liu\nI’m a senior Physics major at Pomona College with extensive experience in mechanical design, fluid dynamics research, and innovative engineering projects. From designing a tracked electric platform with two-speed transmission to simulating and experimenting vortex ring formation in Sphagnum moss, I’ve pursued my passion for creating sophisticated mechanical systems throughout my undergraduate career.\n\n\n\nMy journey in mechanical design began in my freshman year, driven by a deep fascination with designing and building functional mechanical systems. Though I wish I had formal mechanical design education earlier, the self-taught path has given me unique perspectives and problem-solving approaches. My work spans from non planar superconducting stellarator magnets to amphibious robots and shaped charge simulations, reflecting my diverse interests in applied physics and engineering.\nFuture Plans: I’m excited to continue my academic journey as a Kummer I&E Doctoral Fellow at Missouri S&T, where I’ll advance research in energetic materials safety and applications.\n\n  🔗 LinkedIn  \n\n\n\n\nNebiyu Samuel\nI’m a senior at Harvey Mudd College majoring in engineering, with a strong interest in mechanical design and hands-on fabrication.\n\n\n\nI enjoy working in both the metal and wood shops, where I apply practical skills to bring ideas to life. I’m especially passionate about projects that combine technical precision with creative problem-solving.\n\n  🔗 LinkedIn     📄 Resume"
   }
 ]
