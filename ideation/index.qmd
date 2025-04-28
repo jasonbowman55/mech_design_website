@@ -1,6 +1,11 @@
 ---
 title: "Ideation"
 ---
-With inspiration originally derived from the Strandbeest Bike video titled [Epic Cycling | Truly Unique Bicycle that Walks](https://www.youtube.com/watch?v=fXXJ1LOqHEk) on YouTube, this project aims to extend the concept to an electromechanical system capable of supporting the weight of a couch and a passenger.
+With inspiration originally derived from the Strandbeest Bike video titled [Epic Cycling | Truly Unique Bicycle that Walks](https://www.youtube.com/watch?v=fXXJ1LOqHEk) on YouTube, created by [Brandon Green at the Dallas Makerspace](https://talk.dallasmakerspace.org/t/rogue-strandbeest-mk2-build-complete/49518), this project aims to extend the concept to an electromechanical system capable of supporting the weight of a couch and a passenger.
 
-This idea was further explored by [Nebiyu Samuel](https://www.linkedin.com/in/nebiyu-samuel-262214256/) and [Scarlett Bonner](https://www.linkedin.com/in/scarlett-bonner/) in [E175: Dynamics of Rigid Bodies](https://catalog.hmc.edu/preview_course_nopop.php?catoid=24&coid=7786) at Harvey Mudd College, taught by [Professor Lori Bassman](https://www.linkedin.com/in/lori-bassman-2229285/). As outlined in the paper linked [here](docs/Strandbeest_E175_report.pdf).
+![Dallas Makerspace "Rogue Strandbeest Mk2 Build [COMPLETE]" - Brandon_Green](images/bike.jpeg)
+
+This idea was further explored by [Nebiyu Samuel](https://www.linkedin.com/in/nebiyu-samuel-262214256/) and [Scarlett Bonner](https://www.linkedin.com/in/scarlett-bonner/) in [E175: Dynamics of Rigid Bodies](https://catalog.hmc.edu/preview_course_nopop.php?catoid=24&coid=7786) at Harvey Mudd College, taught by [Professor Lori Bassman](https://www.linkedin.com/in/lori-bassman-2229285/). In their report titled "Modeling a Strandbeest Bike" found below, Nebiyu and Scarlett drew from knowledge learned in E175 to analyze footpath, kinetic energy, and power requirements needed to run this complex mechanical system.
+
+<iframe src="pdf/Strandbeest_E175_Report.pdf" width="100%" height="600px" style="border: none;">
+</iframe>

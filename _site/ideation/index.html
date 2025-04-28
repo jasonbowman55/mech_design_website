@@ -144,8 +144,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>With inspiration originally derived from the Strandbeest Bike video titled <a href="https://www.youtube.com/watch?v=fXXJ1LOqHEk">Epic Cycling | Truly Unique Bicycle that Walks</a> on YouTube, this project aims to extend the concept to an electromechanical system capable of supporting the weight of a couch and a passenger.</p>
-<p>This idea was further explored by <a href="https://www.linkedin.com/in/nebiyu-samuel-262214256/">Nebiyu Samuel</a> and <a href="https://www.linkedin.com/in/scarlett-bonner/">Scarlett Bonner</a> in <a href="https://catalog.hmc.edu/preview_course_nopop.php?catoid=24&amp;coid=7786">E175: Dynamics of Rigid Bodies</a> at Harvey Mudd College, taught by <a href="https://www.linkedin.com/in/lori-bassman-2229285/">Professor Lori Bassman</a>. As outlined in the paper linked <a href="docs/Strandbeest_E175_report.pdf">here</a>.</p>
+<p>With inspiration originally derived from the Strandbeest Bike video titled <a href="https://www.youtube.com/watch?v=fXXJ1LOqHEk">Epic Cycling | Truly Unique Bicycle that Walks</a> on YouTube, created by <a href="https://talk.dallasmakerspace.org/t/rogue-strandbeest-mk2-build-complete/49518">Brandon Green at the Dallas Makerspace</a>, this project aims to extend the concept to an electromechanical system capable of supporting the weight of a couch and a passenger.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/bike.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Dallas Makerspace “Rogue Strandbeest Mk2 Build [COMPLETE]” - Brandon_Green</figcaption>
+</figure>
+</div>
+<p>This idea was further explored by <a href="https://www.linkedin.com/in/nebiyu-samuel-262214256/">Nebiyu Samuel</a> and <a href="https://www.linkedin.com/in/scarlett-bonner/">Scarlett Bonner</a> in <a href="https://catalog.hmc.edu/preview_course_nopop.php?catoid=24&amp;coid=7786">E175: Dynamics of Rigid Bodies</a> at Harvey Mudd College, taught by <a href="https://www.linkedin.com/in/lori-bassman-2229285/">Professor Lori Bassman</a>. In their report titled “Modeling a Strandbeest Bike” found below, Nebiyu and Scarlett drew from knowledge learned in E175 to analyze footpath, kinetic energy, and power requirements needed to run this complex mechanical system.</p>
+<iframe src="pdf/Strandbeest_E175_Report.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
 
 
 
@@ -242,7 +250,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/jasonbowman55\.github\.io\/mech_design_website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
