@@ -1,11 +1,18 @@
 ---
-title: "Squat Hero"
+title: "Walking Couch"
 about:
     template: jolla
+    links:
+    -   icon: person-circle
+        text: Meet The Inventors!
+        href: meet_the_inventors/index.qmd
+format:
+  html:
+    theme: darkly
 ---
 
 ![](images/andrew_grind.jpeg)
 
-Welcome to our final project for Micro Ps! A class at Harvey Mudd College focused on Microprocessor and FPGA design and application.
+Welcome to our final project for Mechanical Design, a course at Harvey Mudd College focused on mechanical principles, analysis techniques, group design workflows, and product development.
 
-This project focused on implementing MCU and FPGA functionalities to measure joint angles using IMUs and display a figure on a screen via VGA, providing insights into the user’s squat depth. Tracking body motion is a foundational step in developing many kinematic solutions and serves as the initial phase of a long-term project, further detailed in the Project Ideation tab.
+This project focuses on the physical design, analysis, and implementation of an electromechanical Jansen linkage system capable of carrying a couch and passenger, allowing for stylish transport around Harvey Mudd's campus. Further information about technical specifics and design decisions can be found in the tabs above.

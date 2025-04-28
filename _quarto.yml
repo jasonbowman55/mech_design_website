@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "mech_design_website"
+  title: "E177: Mechanical Design"
   navbar:
     left:
       - href: index.qmd
