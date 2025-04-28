@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "mech_design_website",
+    "title": "Squat Hero",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome to our final project for Micro Ps! A class at Harvey Mudd College focused on Microprocessor and FPGA design and application.\nThis project focused on implementing MCU and FPGA functionalities to measure joint angles using IMUs and display a figure on a screen via VGA, providing insights into the user’s squat depth. Tracking body motion is a foundational step in developing many kinematic solutions and serves as the initial phase of a long-term project, further detailed in the Project Ideation tab."
   },
   {
     "objectID": "about.html",

@@ -2,16 +2,6 @@
 title: "Squat Hero"
 about:
     template: jolla
-    links:
-    -   icon: person-circle
-        text: Meet The Inventors!
-        href: 
-    -   icon: cloud
-        text: Google Drive
-        href: https://drive.google.com/drive/folders/1sGHBYKxSVogYVzWF0iUvkT7jZELUyYAm?usp=drive_link
-format:
-  html:
-    theme: darkly
 ---
 
 ![](images/andrew_grind.jpeg)
