@@ -5,7 +5,7 @@ about:
     links:
     -   icon: person-circle
         text: Meet The Inventors!
-        href: meet_the_inventors/index.qmd
+        href: meet_the_inventors/index.html
 format:
   html:
     theme: darkly

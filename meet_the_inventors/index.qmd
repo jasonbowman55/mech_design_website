@@ -1,30 +1,78 @@
 ---
 title: Inventors
+format:
+  html:
+    theme: darkly
 ---
 
 ### Jason Bowman
 Engineering major at Harvey Mudd College (grad 25), with experience in embedded systems, electrical engineering, control systems, DSP, electromechanical systems, and mechanical design.
 
 <p style="text-align: center; display: flex; align-items: center; justify-content: center;">
-  <img src="images/headshot.jpeg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; vertical-align: middle; margin: 0 10px;">
+  <img src="images/jason_headshot.jpeg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; vertical-align: middle; margin: 0 10px;">
 </p>
 
-*Micro Ps was a must-take class as I aimed to bridge the gap between idea and product. In the past, I have done personal projects involving digital electronics, where the knowledge gained in this class would have proved immensely helpful. Squat Hero is the first of many future personal projects involving embedded systems and digital electronics that I plan on doing*
-
+*Mechanical design was my first engineering interest when entering Harvey Mudd College. Although I was ultimately drawn to the realm of electrical and embedded systems, mechanical design has always remained one of my top three interests in engineering. I love working with my hands, learning new things, and seeing a final product come together through the countless twists and turns of the design process.*
 
 <div style="text-align: center;">
   <a href="https://www.linkedin.com/in/jasonbbowman/" target="_blank" style="text-decoration: none;">
-    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer;">
+    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: transparent; color: white; border: 2px solid white; border-radius: 5px;">
       🔗 LinkedIn
     </button>
   </a>
   <a href="https://jasonbowman55.github.io/Blog-Site/" target="_blank" style="text-decoration: none;">
-    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer;">
+    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: transparent; color: white; border: 2px solid white; border-radius: 5px;">
       👤 Jason's Personal Website
     </button>
   </a>
-  <a href="https://drive.google.com/file/d/19213KDBQJlmCxcuwsBsXrRoW5R6eXiIx/view?usp=sharing" target="_blank" style="text-decoration: none;">
-    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer;">
+  <a href="https://drive.google.com/file/d/1ntSqZwh1QK3mf65jJa4V1x2__28TcnYI/view?usp=sharing" target="_blank" style="text-decoration: none;">
+    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: transparent; color: white; border: 2px solid white; border-radius: 5px;">
+      📄 Resume
+    </button>
+  </a>
+</div>
+
+---
+
+### Larry (Gengyan) Liu
+I'm a senior Physics major at Pomona College with extensive experience in mechanical design, fluid dynamics research, and innovative engineering projects. From designing a tracked electric platform with two-speed transmission to simulating and experimenting vortex ring formation in Sphagnum moss, I've pursued my passion for creating sophisticated mechanical systems throughout my undergraduate career.
+
+<p style="text-align: center; display: flex; align-items: center; justify-content: center;">
+  <img src="images/larry_headshot.jpeg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; vertical-align: middle; margin: 0 10px;">
+</p>
+
+*My journey in mechanical design began in my freshman year, driven by a deep fascination with designing and building functional mechanical systems. Though I wish I had formal mechanical design education earlier, the self-taught path has given me unique perspectives and problem-solving approaches. My work spans from non planar superconducting stellarator magnets to amphibious robots and shaped charge simulations, reflecting my diverse interests in applied physics and engineering.*
+
+**Future Plans:** *I'm excited to continue my academic journey as a Kummer I&E Doctoral Fellow at Missouri S&T, where I'll advance research in energetic materials safety and applications.*
+
+<div style="text-align: center;">
+  <a href="https://www.linkedin.com/in/gengyan-liu-3690b919b/" target="_blank" style="text-decoration: none;">
+    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: transparent; color: white; border: 2px solid white; border-radius: 5px;">
+      🔗 LinkedIn
+    </button>
+  </a>
+</div>
+
+---
+
+### Nebiyu Samuel
+I’m a senior at Harvey Mudd College majoring in engineering, with a strong interest in mechanical design and hands-on fabrication.
+
+<div style="text-align: center;">
+  <img src="images/nebi_headshot.jpeg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; margin: 20px 0;">
+</div>
+
+*I enjoy working in both the metal and wood shops, where I apply practical skills to bring ideas to life. I’m especially passionate about projects that combine technical precision with creative problem-solving.*
+
+
+<div style="text-align: center;">
+  <a href="https://www.linkedin.com/in/nebiyu-samuel-262214256/" target="_blank" style="text-decoration: none;">
+    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: transparent; color: white; border: 2px solid white; border-radius: 5px;">
+      🔗 LinkedIn
+    </button>
+  </a>
+  <a href="https://docs.google.com/document/d/1MzZ4rtgBEDTDcsNY-ByaXi98gCQp3A0ddbXi_v7pAIw/edit?usp=drivesdk" target="_blank" style="text-decoration: none;">
+    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: transparent; color: white; border: 2px solid white; border-radius: 5px;">
       📄 Resume
     </button>
   </a>
