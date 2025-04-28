@@ -1,17 +1,14 @@
 /* css styles */
-/* Responsive PDF viewer */
+/* Responsive PDF viewer for walking couch site */
 .pdf-container {
-    position: relative;
     width: 100%;
-    padding-bottom: 140%; /* 4:3 aspect ratio for PDF */
-    height: 0;
+    height: 80vh; /* 80% of the visible screen height */
+    max-height: 800px; /* cap it on large screens */
+    min-height: 400px; /* keep reasonable minimum */
     overflow: hidden;
 }
 
 .pdf-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     border: none;
