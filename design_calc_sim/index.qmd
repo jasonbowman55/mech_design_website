@@ -1,0 +1,7 @@
+---
+title: "Design and Simulation"
+format:
+  html:
+    theme: darkly
+---
+*text*
