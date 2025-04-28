@@ -1,7 +1,4 @@
 ---
 title: "Manufacturing"
-format:
-  html:
-    theme: darkly
 ---
 *text*

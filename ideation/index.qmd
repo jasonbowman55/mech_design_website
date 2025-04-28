@@ -1,8 +1,5 @@
 ---
 title: "Ideation"
-format:
-  html:
-    theme: darkly
 ---
 With inspiration originally derived from the Strandbeest Bike video titled [Epic Cycling | Truly Unique Bicycle that Walks](https://www.youtube.com/watch?v=fXXJ1LOqHEk) on YouTube, this project aims to extend the concept to an electromechanical system capable of supporting the weight of a couch and a passenger.
 

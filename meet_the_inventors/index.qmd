@@ -1,8 +1,5 @@
 ---
 title: Inventors
-format:
-  html:
-    theme: darkly
 ---
 
 ### Jason Bowman
