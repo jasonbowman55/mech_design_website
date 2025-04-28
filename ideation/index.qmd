@@ -4,4 +4,6 @@ format:
   html:
     theme: darkly
 ---
-*text*
+With inspiration originally derived from the Strandbeest Bike video titled [Epic Cycling | Truly Unique Bicycle that Walks](https://www.youtube.com/watch?v=fXXJ1LOqHEk) on YouTube, this project aims to extend the concept to an electromechanical system capable of supporting the weight of a couch and a passenger.
+
+This idea was further explored by [Nebiyu Samuel](https://www.linkedin.com/in/nebiyu-samuel-262214256/) and [Scarlett Bonner](https://www.linkedin.com/in/scarlett-bonner/) in [E175: Dynamics of Rigid Bodies](https://catalog.hmc.edu/preview_course_nopop.php?catoid=24&coid=7786) at Harvey Mudd College, taught by [Professor Lori Bassman](https://www.linkedin.com/in/lori-bassman-2229285/). As outlined in the paper linked [here](docs/Strandbeest_E175_report.pdf).
