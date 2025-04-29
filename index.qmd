@@ -8,12 +8,6 @@ about:
         href: meet_the_inventors/index.html
 ---
 
-<!-- QR Code fixed in bottom-right corner -->
-<div style="position: fixed; bottom: 20px; right: 20px; width: 100px; z-index: 1000;">
-  <img src="images/qr_code.jpeg" alt="QR Code" style="width: 100%;">
-</div>
-
-
 ![](images/andrew_grind.jpeg)
 
 Welcome to our final project for Mechanical Design, a course at Harvey Mudd College focused on mechanical principles, analysis techniques, group design workflows, and product development.
