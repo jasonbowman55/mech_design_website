@@ -1,4 +1,45 @@
 ---
 title: "Design and Simulation"
 ---
-*text*
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
+
+# CAD Exploded View
+**IMAGE OF THE EXPLODED VIEW OF THE CAD**
+
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
+
+# Design Features
+
+## Crankshaft
+This design allows us to transfer torque from the reduction stage into the legs. Our initial plan was to use 12 total legs—three at each corner—which required either a long crankshaft, simulated below, or numerous sprockets and chains. The simulation highlighted key issues in our design.
+
+![SolidWorks FEA Simulation for Crankshaft](images/simulation_crank.jpeg)
+
+The long crankshaft introduced undesirable failure modes and increased design complexity, while the sprockets and chains exceeded our budget. Based on the simulation, we made two key decisions that ultimately contributed to the success of our project.
+
+### Decision 1:
+We moved from 12 legs to 8 legs, with only 2 per corner, reducing the length of the crankshaft and decreasing the localized torque experienced near the crankshaft’s sprocket.
+
+### Decision 2:
+We increased the thickness of the steel bars used for the crankshaft to reduce the risk of torsional failure modes that may have been overlooked in the idealized simulation.
+
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
+
+# Reduction Stage
+
+To determine how much we need to reduce our motor input, we first need to understand the torque required to drive a single leg. This is highly dependent on the leg path, which is closely tied to the geometry of the leg mechanism. As previously mentioned—and as shown in the Ideation tab—we are using a Carpentopod ratio with a maximum height of 1.5 ft, as designed for below, and resulting in the adjacent footpath shown. Take note that the footpath oriented such that the flat section on the right represents ground contact in the real-world configuration.
+
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+
+  <img src="images/foot_path.jpeg" alt="8 completed legs" style="height: 250px; object-fit: contain;" />
+
+  <img src="images/leg.jpeg" alt="Adjusted bolt length" style="height: 250px; object-fit: contain;" />
+
+</div>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
+
+Using the leg dimensions, a codebase written by Nebiyu calculates the required torque for a single leg over its full motion. As shown below, where the y-axis is in Nm, the peak torque is 2 Nm. With eight legs and two drive motors, this results in an ideal load of 8 Nm per motor. Our motors can supply 5 Nm, and assuming a conservatively low output of 1000 RPM due to friction and torque demands, we selected a factor of safety of 10 to support our 5 mph stretch goal. This leads to a required gear reduction of 16:1.
+
+![Torque simulation for 1 leg](images/torque_sim.jpeg)
+
+As a result, we expect smooth operation, limited primarily by weld quality, bushing alignment and lifespan, and the strength of our in-house-fabricated sprockets, which are detailed further in the Manufacturing tab.

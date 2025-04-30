@@ -57,10 +57,10 @@ This project focuses on the physical design, analysis, and implementation of an 
 <div style="text-align: center;">
 # Future Work
 <ul style="display: inline-block; text-align: left; padding-left: 20px; margin: 0 auto;">
-  <li>Upgrade to 12 legs for smoother gait granted by a 120° phase offset (currently 180°)</li>
-  <li>Increase gear ratio for higher speeds</li>
-  <li>Exchange bushings used in leg joints for ball bearings to extend operating lifetime</li>
-  <li>Add enclosure for electronics and chain linkage</li>
+  <li>Upgrade to 12 legs for smoother movement enabled by a 120° phase offset (currently 180°)</li>
+  <li>Decrease gear ratio to achieve higher speeds</li>
+  <li>Replace bushings in leg joints with ball bearings to extend operating lifetime</li>
+  <li>Add an enclosure for electronics and chain linkage</li>
 </ul>
 </div>
 
