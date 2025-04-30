@@ -119,8 +119,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#legs" id="toc-legs" class="nav-link active" data-scroll-target="#legs">Legs</a></li>
+  <li><a href="#brackets" id="toc-brackets" class="nav-link" data-scroll-target="#brackets">“Brackets”</a></li>
+  <li><a href="#frame" id="toc-frame" class="nav-link" data-scroll-target="#frame">Frame</a></li>
+  <li><a href="#reduction-stage" id="toc-reduction-stage" class="nav-link" data-scroll-target="#reduction-stage">Reduction Stage</a></li>
+  <li><a href="#couch" id="toc-couch" class="nav-link" data-scroll-target="#couch">Couch</a></li>
+  <li><a href="#electrical-design" id="toc-electrical-design" class="nav-link" data-scroll-target="#electrical-design">Electrical Design</a></li>
+  <li><a href="#the-trials-and-tribulations-of-e177" id="toc-the-trials-and-tribulations-of-e177" class="nav-link" data-scroll-target="#the-trials-and-tribulations-of-e177">The Trials and Tribulations of E177</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -144,9 +156,108 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>text</em></p>
+<p><img src="images/shop_bot.jpeg" class="img-fluid"></p>
+<section id="legs" class="level1">
+<h1>Legs</h1>
+<p>The legs were manufactured from 3/4-inch wooden cutouts using the ShopBot machine in the Harvey Mudd machine shop. Each leg accounted for both slipping and non-slipping joints, with either bushing carriages (shown below) or secure bolts mounted accordingly. In total, we fabricated eight legs.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/leg_bolt.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Bushing assembly used for rotational joints on the legs</figcaption>
+</figure>
+</div>
+<p>In addition to the bolt and bushing connections, one more connection was required to complete the leg assemblies. As seen below, 3D-printed spacers, a generous amount of 5-minute epoxy, and six wood screws were used to clamp these sections—optimized to withstand the expected shear forces.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/leg_screws.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Glued and screwed section of our leg assembly</figcaption>
+</figure>
+</div>
+<p>Due to the compactness of our design and the hardware available at Harvey Mudd College, the previously 4-inch-long, 1/2-inch-diameter bolts were cut nearly flush with each joint to prevent interference within the assembly, as seen on the right in the image of the finished legs below.</p>
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+<p><img src="images/legs_done.jpeg" alt="8 completed legs" style="height: 250px; object-fit: contain;"></p>
+<p><img src="images/grinded_screw.jpeg" alt="Adjusted bolt length" style="height: 250px; object-fit: contain;"></p>
+</div>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
+</section>
+<section id="brackets" class="level1">
+<h1>“Brackets”</h1>
+<p>The components we refer to as brackets serve as mounting points for the axle and fixed sections of the crankshaft connected to the frame. The assembly features a dual bearing design using 1/2-inch steel rods, 1-inch steel tubing, and 3/4-inch square beams. A complete bracket assembly is shown below, including bearing placement and a 3D-printed spacer that keeps the bearings near the tubing edge to maximize resistance to bending moments. Specific dimensions are available in the CAD ZIP file linked on the homepage.</p>
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+<p><img src="images/one_bracket.jpeg" alt="_" style="height: 250px; object-fit: contain;"></p>
+<p><img src="images/bearing_bracket.jpeg" alt="_" style="height: 250px; object-fit: contain;"></p>
+</div>
+<p>Ensuring proper alignment during bracket assembly is crucial, as they support long 1/2-inch steel beams that serve as crankshaft mounts and axle blocks. Extreme care was taken using bearings, 1/2-inch steel rods, long bolts, clamps, and scrap 80/20 bars as guides to achieve precise alignment across all brackets as shown below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/bracket_jig.jpeg" class="img-fluid figure-img"></p>
+<figcaption>DIY aligment fixture</figcaption>
+</figure>
+</div>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
+</section>
+<section id="frame" class="level1">
+<h1>Frame</h1>
+<p>The frame refers to the top portion of the full assembly, where the couch mounts above and the motor and reduction assemblies mount below. Four 3-foot-long angle irons were welded into a square, with 80/20 bars screwed in parallel along two sides. An additional four 80/20 bars were attached to the top, serving as mounting points for the couch, motor, and reduction stages. This configuration provides flexibility in positioning the motor and reduction assemblies, allowing for proper spring tensioning during final assembly.</p>
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+<p><img src="images/frame.jpeg" alt="_" style="height: 250px; object-fit: contain;"></p>
+<p><img src="images/frame_2.jpeg" alt="_" style="height: 250px; object-fit: contain;"></p>
+</div>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
+</section>
+<section id="reduction-stage" class="level1">
+<h1>Reduction Stage</h1>
+<p>As determined in the Design &amp; Simulation section, a total gear reduction of 16:1 is required. Since each motor drives two pairs of legs (front and back on one side), the reduction must be achieved in two stages. The reduction stage shown below represents the first step. A key feature of this component is that it converts a single input (the large gear) into two outputs (the smaller gears), with one driving the front legs and the other driving the back legs on the same side of the walking couch.</p>
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+<p><img src="images/reduction_full.jpeg" alt="_" style="height: 250px; object-fit: contain;"></p>
+<p><img src="images/reduction_side.jpeg" alt="_" style="height: 250px; object-fit: contain;"></p>
+</div>
+<p>The pillow blocks in this design are made from 100% infill PLA 3D-printed material and include press-fit bearings. The shaft features three sprockets and a range of differently sized spacers, visible between the sprockets in the image above and below. These spacers provide flexibility during the assembly process.</p>
+<img src="images/reduction_spacers.jpeg" class="img-fluid">
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
+</section>
+<section id="couch" class="level1">
+<h1>Couch</h1>
+<p>We used Dominick’s college futon, which was originally slightly too long. To adapt it, we shortened it to approximately 3 feet wide while preserving its ability to recline—a critical feature. After all, when riding a walking couch across a college campus, one must be sufficiently reclined to truly convey just how cool they really are.</p>
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+<p><img src="images/couch_cut.jpeg" alt="_" style="height: 250px; object-fit: contain;"></p>
+<p><img src="images/couch_done.jpeg" alt="_" style="height: 250px; object-fit: contain;"></p>
+</div>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
+</section>
+<section id="electrical-design" class="level1">
+<h1>Electrical Design</h1>
+<strong>IT WOULD BE GOOD TO HAVE LARRY WRITE UP A SHORT SCHEMATIC FOR THE ELECTRICAL STUFF WITH PART NUMBERS ETC</strong>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
+</section>
+<section id="the-trials-and-tribulations-of-e177" class="level1">
+<h1>The Trials and Tribulations of E177</h1>
+<p><img src="images/sleepy.jpeg" class="img-fluid"></p>
+<div style="text-align: center;">
+<p>Larry fired up the waterjet bright,<br>
+Dominick vowed to guard it right.<br>
+But slumber came and took its claim—<br>
+He drifted off mid-jetting flame.</p>
+<p><br></p>
+<p>Andrew stepped in, alert and spry,<br>
+But heavy lids soon dimmed his eye.<br>
+He too gave in, began to snore—<br>
+Another watcher lost to lore.</p>
+<p><br></p>
+<p>Then Jason passed, with camera quick,<br>
+He snapped the scene—his timing slick.<br>
+A moment framed in drowsy lore:<br>
+Two napping techs, the jet did roar.</p>
+<ul>
+<li>Chat GPT</li>
+</ul>
+</div>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
+<p><img src="images/oops1.jpeg" class="img-fluid"></p>
+<p>A slight miscalculation turned into more welding practice.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

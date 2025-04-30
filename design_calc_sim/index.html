@@ -124,13 +124,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#cad-overview" id="toc-cad-overview" class="nav-link active" data-scroll-target="#cad-overview">CAD Overview</a></li>
+  <li><a href="#cad-exploded-view" id="toc-cad-exploded-view" class="nav-link active" data-scroll-target="#cad-exploded-view">CAD Exploded View</a></li>
   <li><a href="#design-features" id="toc-design-features" class="nav-link" data-scroll-target="#design-features">Design Features</a>
   <ul class="collapse">
-  <li><a href="#crank-shaft" id="toc-crank-shaft" class="nav-link" data-scroll-target="#crank-shaft">Crank Shaft</a>
+  <li><a href="#crankshaft" id="toc-crankshaft" class="nav-link" data-scroll-target="#crankshaft">Crankshaft</a>
   <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">1:</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2:</a></li>
+  <li><a href="#decision-1" id="toc-decision-1" class="nav-link" data-scroll-target="#decision-1">Decision 1:</a></li>
+  <li><a href="#decision-2" id="toc-decision-2" class="nav-link" data-scroll-target="#decision-2">Decision 2:</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#reduction-stage" id="toc-reduction-stage" class="nav-link" data-scroll-target="#reduction-stage">Reduction Stage</a></li>
@@ -159,28 +159,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="cad-overview" class="level1">
-<h1>CAD Overview</h1>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
+<section id="cad-exploded-view" class="level1">
+<h1>CAD Exploded View</h1>
+<p><strong>IMAGE OF THE EXPLODED VIEW OF THE CAD</strong></p>
 <hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
 </section>
 <section id="design-features" class="level1">
 <h1>Design Features</h1>
-<section id="crank-shaft" class="level2">
-<h2 class="anchored" data-anchor-id="crank-shaft">Crank Shaft</h2>
-<p>This design allows us to transfer torque from the reduction stage into the legs. Our initial plan was to use 12 total legs—three at each corner—which required either a long crankshaft or numerous sprockets and chains. Though the simulation seen below highlighted key issues in our design.</p>
+<section id="crankshaft" class="level2">
+<h2 class="anchored" data-anchor-id="crankshaft">Crankshaft</h2>
+<p>This design allows us to transfer torque from the reduction stage into the legs. Our initial plan was to use 12 total legs—three at each corner—which required either a long crankshaft, simulated below, or numerous sprockets and chains. The simulation highlighted key issues in our design.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/simulation_crank.jpeg" class="img-fluid figure-img"></p>
-<figcaption>SolidWorks FEA Simulation for Crank Shaft</figcaption>
+<figcaption>SolidWorks FEA Simulation for Crankshaft</figcaption>
 </figure>
 </div>
-<p>The long crankshaft introduced undesirable failure modes and increased design complexity, while the sprockets and chains exceeded our budget. Based on the simulation shown below, we made two key decisions that ultimately contributed to the success of our project.</p>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">1:</h3>
+<p>The long crankshaft introduced undesirable failure modes and increased design complexity, while the sprockets and chains exceeded our budget. Based on the simulation, we made two key decisions that ultimately contributed to the success of our project.</p>
+<section id="decision-1" class="level3">
+<h3 class="anchored" data-anchor-id="decision-1">Decision 1:</h3>
 <p>We moved from 12 legs to 8 legs, with only 2 per corner, reducing the length of the crankshaft and decreasing the localized torque experienced near the crankshaft’s sprocket.</p>
 </section>
-<section id="section-1" class="level3">
-<h3 class="anchored" data-anchor-id="section-1">2:</h3>
+<section id="decision-2" class="level3">
+<h3 class="anchored" data-anchor-id="decision-2">Decision 2:</h3>
 <p>We increased the thickness of the steel bars used for the crankshaft to reduce the risk of torsional failure modes that may have been overlooked in the idealized simulation.</p>
 <hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
 </section>
@@ -188,8 +190,20 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="reduction-stage" class="level1">
 <h1>Reduction Stage</h1>
-<p>We chose to do a gear reduction stage to achieve an output torque of (20<em>12</em>X Nm), as simulation shown below shows, we found the required torque to drive a single leg to be (X nM). We chose a factor of safety of (Y) as the resistance would be affected by imperfect tolerances and unpredictable bushing friction in the real world.</p>
-<p><strong>IMAGE OF THE SIMULATION FOR TORQUE DONE BY NEBI</strong></p>
+<p>To determine how much we need to reduce our motor input, we first need to understand the torque required to drive a single leg. This is highly dependent on the leg path, which is closely tied to the geometry of the leg mechanism. As previously mentioned—and as shown in the Ideation tab—we are using a Carpentopod ratio with a maximum height of 1.5 ft, as designed for below, and resulting in the adjacent footpath shown. Take note that the footpath oriented such that the flat section on the right represents ground contact in the real-world configuration.</p>
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+<p><img src="images/foot_path.jpeg" alt="8 completed legs" style="height: 250px; object-fit: contain;"></p>
+<p><img src="images/leg.jpeg" alt="Adjusted bolt length" style="height: 250px; object-fit: contain;"></p>
+</div>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
+<p>Using the leg dimensions, a codebase written by Nebiyu calculates the required torque for a single leg over its full motion. As shown below, where the y-axis is in Nm, the peak torque is 2 Nm. With eight legs and two drive motors, this results in an ideal load of 8 Nm per motor. Our motors can supply 5 Nm, and assuming a conservatively low output of 1000 RPM due to friction and torque demands, we selected a factor of safety of 10 to support our 5 mph stretch goal. This leads to a required gear reduction of 16:1.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/torque_sim.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Torque simulation for 1 leg</figcaption>
+</figure>
+</div>
+<p>As a result, we expect smooth operation, limited primarily by weld quality, bushing alignment and lifespan, and the strength of our in-house-fabricated sprockets, which are detailed further in the Manufacturing tab.</p>
 
 
 </section>
