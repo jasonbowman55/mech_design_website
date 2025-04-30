@@ -8,7 +8,7 @@ website:
       - href: index.qmd
         text: Home
       - href: ideation/index.qmd
-        text: Ideation
+        text: Ideation/Project Background
       - href: design_calc_sim/index.qmd
         text: Design & Simulation
       - href: manufacturing/index.qmd

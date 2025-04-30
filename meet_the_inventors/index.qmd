@@ -93,3 +93,32 @@ Engineering major at Harvey Mudd College (2026), with interest in mechanical des
     </button>
   </a>
 </div>
+
+---
+
+### Dominick Quaye
+MechE at HMC, Have done two MechE internships.
+
+<p style="text-align: center; display: flex; align-items: center; justify-content: center;">
+  <img src="images/dom_headshot.jpeg" alt="Headshot" style="width: 200px; height: 200px; border-radius: 50%; vertical-align: middle; margin: 0 10px;">
+</p>
+
+*I did Mech design to challenge/improve my skills, and have fun!*
+
+<div style="text-align: center;">
+  <a href="https://www.linkedin.com/in/dominick-q-907baa210/" target="_blank" style="text-decoration: none;">
+    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: transparent; color: white; border: 2px solid white; border-radius: 5px;">
+      🔗 LinkedIn
+    </button>
+  </a>
+  <a href="https://dominickquaye.github.io/" target="_blank" style="text-decoration: none;">
+    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: transparent; color: white; border: 2px solid white; border-radius: 5px;">
+      👤 Dom's Personal Website
+    </button>
+  </a>
+  <a href="https://drive.google.com/file/d/1tP7Oz9d01DKas15_Xfn6-1KRvcteVJqv/view?usp=sharing" target="_blank" style="text-decoration: none;">
+    <button style="margin: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: transparent; color: white; border: 2px solid white; border-radius: 5px;">
+      📄 Resume
+    </button>
+  </a>
+</div>

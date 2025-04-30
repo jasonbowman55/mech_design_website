@@ -12,4 +12,58 @@ about:
 
 Welcome to our final project for Mechanical Design, a course at Harvey Mudd College focused on mechanical principles, analysis techniques, group design workflows, and product development.
 
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
+
+# Introduction
 This project focuses on the physical design, analysis, and implementation of an electromechanical Jansen linkage system capable of carrying a couch and passenger, allowing for stylish transport around Harvey Mudd's campus. Further information about technical specifics and design decisions can be found in the tabs at the top of the page.
+
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
+
+<div style="display: flex; justify-content: space-between; gap: 40px;">
+
+<div style="flex: 1; text-align: left;">
+# Requirements
+- Walk using the Jansen linkage  
+- Carry 1 passenger
+- Recline  
+- Electromechanically powered  
+- Steerable  
+</div>
+
+<div style="flex: 1; text-align: left;">
+# Specifications
+- Hold 500 lbs  
+- Transfer torque via chain-sprocket linkage  
+- Lifecycle of >30 minutes  
+- Move >2 mph  
+</div>
+
+</div>
+
+<br>
+
+<div style="text-align: center;">
+# Stretch Goals
+<ul style="display: inline-block; text-align: left; padding-left: 20px; margin: 0 auto;">
+  <li>Move 5 mph</li>
+  <li>Hold 2 people</li>
+  <li>Able to navigate hallways of Harvey Mudd</li>
+  <li>&lt;70 dB</li>
+</ul>
+</div>
+
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
+
+<div style="text-align: center;">
+# Future Work
+<ul style="display: inline-block; text-align: left; padding-left: 20px; margin: 0 auto;">
+  <li>Upgrade to 12 legs for smoother gait granted by a 120° phase offset (currently 180°)</li>
+  <li>Increase gear ratio for higher speeds</li>
+  <li>Exchange bushings used in leg joints for ball bearings to extend operating lifetime</li>
+  <li>Add enclosure for electronics and chain linkage</li>
+</ul>
+</div>
+
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
+
+# Conclusion
