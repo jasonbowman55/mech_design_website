@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -122,6 +123,7 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#stretch-goals" id="toc-stretch-goals" class="nav-link" data-scroll-target="#stretch-goals">Stretch Goals</a></li>
@@ -131,14 +133,26 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Walking Couch</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><main class="content" id="quarto-document-content">
+  
+
+
+</header>
+
 
 <p><img src="images/team.jpeg" class="img-fluid"></p>
 <p>Welcome to our final project for Mechanical Design, a course at Harvey Mudd College focused on mechanical principles, analysis techniques, group design workflows, and product development.</p>
@@ -219,22 +233,25 @@ Add an enclosure for electronics and chain linkage
 <p>While some of our design specifications and requirements were not met, the contraption did walk! As seen in the video below, the mechanism was able to walk under its own weight using the specified motor and leg assembly. Chain tension and alignment were challenges for the team and could definitely be improved in future designs.</p>
 <video width="100%" controls="">
 <source src="videos/walk.mp4" type="video/mp4">
-<p>Your browser does not support the video tag. </p>
+Your browser does not support the video tag. </video>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;">
+<div style="margin-top: 2em; text-align: center;">
+<p><a href="meet_the_inventors/index.html" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;"> Meet The Inventors! </a></p>
+</div>
 
 
-</video></section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="/meet_the_inventors/index.html" class="about-link" rel="" target="">
-    <i class="bi bi-person-circle"></i>
-     <span class="about-link-text">Meet The Inventors!</span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
