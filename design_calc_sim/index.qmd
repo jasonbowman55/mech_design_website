@@ -4,7 +4,7 @@ title: "Design and Simulation"
 <hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
 
 # CAD Exploded View
-**IMAGE OF THE EXPLODED VIEW OF THE CAD**
+![](images/full.jpeg)
 
 <hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
 

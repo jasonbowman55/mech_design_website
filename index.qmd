@@ -8,7 +8,7 @@ about:
         href: meet_the_inventors/index.html
 ---
 
-![](images/andrew_grind.jpeg)
+![](images/team.jpeg)
 
 Welcome to our final project for Mechanical Design, a course at Harvey Mudd College focused on mechanical principles, analysis techniques, group design workflows, and product development.
 
@@ -67,3 +67,9 @@ This project focuses on the physical design, analysis, and implementation of an 
 <hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
 
 # Conclusion
+While some of our design specifications and requirements were not met, the contraption did walk! As seen in the video below, the mechanism was able to walk under its own weight using the specified motor and leg assembly. Chain tension and alignment were challenges for the team and could definitely be improved in future designs.
+
+<video width="100%" controls>
+  <source src="videos/walk.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

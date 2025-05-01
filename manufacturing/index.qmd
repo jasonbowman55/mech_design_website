@@ -82,39 +82,4 @@ We used Dominick’s college futon, which was originally slightly too long. To a
 <hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
 
 # Electrical Design
-**IT WOULD BE GOOD TO HAVE LARRY WRITE UP A SHORT SCHEMATIC FOR THE ELECTRICAL STUFF WITH PART NUMBERS ETC**
-<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
-
-# The Trials and Tribulations of E177
-
-![](images/sleepy.jpeg)
-
-<div style="text-align: center;">
-
-Larry fired up the waterjet bright,  
-Dominick vowed to guard it right.  
-But slumber came and took its claim—  
-He drifted off mid-jetting flame.  
-
-<br>
-
-Andrew stepped in, alert and spry,  
-But heavy lids soon dimmed his eye.  
-He too gave in, began to snore—  
-Another watcher lost to lore.  
-
-<br>
-
-Then Jason passed, with camera quick,  
-He snapped the scene—his timing slick.  
-A moment framed in drowsy lore:  
-Two napping techs, the jet did roar.
-
-- Chat GPT
-</div>
-
-<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
-
-![](images/oops1.jpeg)
-
-A slight miscalculation turned into more welding practice.
+![](images/circuit.jpeg)
