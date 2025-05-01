@@ -1,11 +1,5 @@
 ---
 title: "Walking Couch"
-about:
-    template: jolla
-    links:
-    -   icon: person-circle
-        text: Meet The Inventors!
-        href: meet_the_inventors/index.html
 ---
 
 ![](images/team.jpeg)
@@ -73,3 +67,10 @@ While some of our design specifications and requirements were not met, the contr
   <source src="videos/walk.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+<hr style="height: 4px; background-color: white; border: none; margin: 2em 0;" />
+
+<div style="margin-top: 2em; text-align: center;">
+  <a href="meet_the_inventors/index.html" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-weight: bold;">
+    Meet The Inventors!
+  </a>
+</div>
